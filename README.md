@@ -1,5 +1,109 @@
-# 💫 About Me:
-👨‍🔬 Bioinformatics | Systems Biology | Transcriptomics | Structural Biology | ML for Omics<br>I’m a computational biologist with a research-focused skillset spanning bulk and single-cell transcriptomics, machine learning for omics, and systems-level network modeling—delivering reproducible, statistically rigorous pipelines for biologically meaningful insights.<br>🔬 🔬 I specialize in bulk and single-cell RNA-seq analysis building full-stack RNA-seq workflows from raw FASTQ to functional insight. Using R/Bioconductor, Seurat, nf-core/Nextflow, and cloud/HPC environments, I’ve analyzed case-control and time-series datasets, applied transcript-to-gene summarization (tximport), and performed differential expression (DESeq2, edgeR, limma). My established pipelines include batch-aware normalization, PCA/QC filtering, contrast modeling, volcano/heatmap visualization, and survival outcome association via TCGAbiolinks. During my recent work, I integrated public patient-level data (CGCI, GDC) from the Burkitt Lymphoma Genome Sequencing Project (CGCI-BLGSP) with experimental RNA-seq to contextualize gene regulation in B-cell lymphoma.<br>🧠 I specialize in interpretable machine learning on omics data. I’ve designed supervised classification models for cancer gene signatures using caret, including custom SBF pipelines for C5.0 and random forests. I validate rigorously using confusion matrices, ROC curves, and kappa scores while flagging overfitting risks. My models extract biologically meaningful features and are framed to answer clinical questions—like treatment stratification or biomarker-driven subgrouping.<br>⚙️ In sequencing data analysis, I’ve processed raw Illumina reads through to biological results in command-line Unix environments. I conduct quality control (FastQC, Cutadapt), alignment (STAR, BWA), assembly (Velvet), and variant interpretation (SAMtools, IGV). In scRNA-seq, I apply the full Seurat workflow—filtering, normalization, HVG selection, PCA, UMAP, clustering, and marker gene identification. For microbiome datasets, I apply Kraken2, Bracken workflows for taxonomic profiling.  I analyze datasets to uncover cell-type–specific expression patterns and lineage behaviors, supporting mechanistic hypotheses in both immunology and cancer biology. I regularly automate pipelines with Bash and manage compute resources in HPCs, ensuring reproducibility and scalability.<br>🧪 I also apply multivariate statistics and pattern recognition (PCA, LDA, MANOVA, factor analysis) to proteomic datasets to identify regulatory axes, functional clusters, and diagnostic signatures. I visualize biological variance using ggplot2, explore dimensionality with eigenvalue decomposition, and assess predictive performance with corrected correlation matrices and ROC metrics.<br>🔗 In network and systems biology, I model biological networks using igraph, extract regulatory modules, and interpret hub genes in terms of disease relevance. I integrate GO and pathway annotations using Cytoscape/BiNGO, drawing connections between network topology and immunopathology—especially in immune dysregulation and damage response pathways. This systems-level lens enhances my approach to target discovery and pathway crosstalk.<br>🧬 My experience also spans computational structural biology, with hands-on expertise in GROMACS-based molecular dynamics simulations and in-depth post-simulation analysis using VMD (Tcl scripting), Python, and visualization libraries like Plotly and ProLIF. In a recent project, I explored the SAMHD1–SOX11 protein complex using docking, PCA, MM-GBSA energy profiling, and interfacial interaction fingerprinting. I designed automated Slurm-based HPC workflows to compute key structural metrics—RMSD, RoG, SASA, hydrogen bonds—at scale, helping translate protein dynamics into mechanistic insights.<br>📌 I thrive at the intersection of biology, computation, and clinical relevance. My work is hypothesis-driven, statistically validated, and engineered for reproducibility in both R and Unix environments. I regularly integrate public datasets (GEO, CGCI, GDC, ArrayExpress), build scalable analysis pipelines, and distill complex data into actionable insight.<br>________________________________________<br>💬 Ask me about:<br>•	Designing RNA-seq & scRNA-seq pipelines for disease models<br>•	Machine learning in immunogenomics and oncology<br>•	Molecular dynamics & free energy calculations in GROMACS<br>•	Network-based interpretation of multi-omics datasets<br>•	Building reproducible analysis workflows on HPC/Slurm<br>________________________________________<br>🎉 Fun fact<br>Before diving into bioinformatics, I worked in the ICU as a clinical pharmacist—until I discovered an intense passion for biological data analysis, which led me to shift careers and pursue systems biology full-time.<br><br>
+# 👨‍🔬 Bioinformatics | Systems Biology | Transcriptomics | Structural Biology | ML for Omics
+
+I’m a computational biologist with a research-focused skillset spanning **bulk and single-cell transcriptomics**, **machine learning for omics**, and **systems-level network modeling**—delivering reproducible, statistically rigorous pipelines for biologically meaningful insights.
+
+---
+
+## 🔬 RNA-seq & scRNA-seq Analysis
+
+I specialize in **bulk and single-cell RNA-seq analysis**, building full-stack RNA-seq workflows from raw FASTQ to biological interpretation. Using **R/Bioconductor**, **Seurat**, **nf-core/Nextflow**, and **HPC/cloud infrastructure**, I’ve processed case-control and time-series datasets, applied transcript-to-gene summarization (`tximport`), and performed differential expression using `DESeq2`, `edgeR`, and `limma`.
+
+My pipelines include:
+- Batch-aware normalization  
+- PCA and QC filtering  
+- Custom contrast modeling  
+- Volcano plots and annotated heatmaps  
+- Survival linkage using `TCGAbiolinks`  
+
+I’ve integrated experimental RNA-seq data with public patient-level cohorts (e.g., **CGCI-BLGSP**, **GDC**) to study gene regulation in **B-cell lymphoma**.
+
+---
+
+## 🧠 Machine Learning in Omics
+
+I build **interpretable machine learning models** using `caret`, focusing on disease classification and biomarker discovery:
+- Custom SBF pipelines for **C5.0** and **Random Forests**  
+- Confusion matrix evaluation, **ROC**, and **Kappa statistics**  
+- Overfitting prevention, feature selection, and biologically meaningful signature extraction  
+
+These models are tailored to clinical use-cases like patient stratification and precision oncology.
+
+---
+
+## ⚙️ High-Throughput Sequencing Data Processing
+
+In Unix/HPC environments, I run complete **NGS pipelines**:
+- Quality control: `FastQC`, `Cutadapt`  
+- Alignment: `STAR`, `BWA`  
+- Assembly: `Velvet`, variant analysis with `SAMtools`, visualization in IGV  
+- Single-cell analysis: `Seurat` (filtering → PCA → UMAP → clustering → marker detection)  
+
+I automate tasks with **Bash scripting** and optimize pipeline execution via **Slurm** for reproducibility at scale.
+
+---
+
+## 📊 Multivariate & Statistical Modeling
+
+I apply **multivariate analysis** to proteomic and transcriptomic datasets:
+- **PCA**, **LDA**, **MANOVA**, **Factor Analysis**
+- Dimensionality reduction & pattern recognition
+- ROC-based model validation and Bonferroni-adjusted correlations
+- Publication-ready plots with `ggplot2`
+
+These tools help reveal hidden structure in omics data and guide hypothesis generation.
+
+---
+
+## 🔗 Network & Systems Biology
+
+I model **biological networks** using `igraph` and `Cytoscape` to:
+- Extract hub genes and modules  
+- Interpret GO enrichments (`BiNGO`)  
+- Map topological features to immune dysfunction or cancer pathways  
+
+My work connects structural and regulatory modules to clinical phenotypes and therapeutic opportunities.
+
+---
+
+## 🧬 Structural Bioinformatics & Molecular Modeling
+
+I’m experienced in **GROMACS-based molecular dynamics simulations**, with full analysis pipelines using:
+- Docking and restraint setup (e.g., SAMHD1–SOX11)
+- Post-simulation PCA, MM-GBSA binding energy
+- Structural metrics: **RMSD**, **RoG**, **SASA**, **H-bonds**
+- Python & Plotly/ProLIF for 3D interaction visualization  
+- Automated analysis via **Slurm HPC** workflows  
+
+My simulations translate atomic interactions into testable mechanistic models in oncology.
+
+---
+
+## 📌 Summary
+
+I thrive at the intersection of **biology, computation, and clinical relevance**. My work is:
+- Hypothesis-driven  
+- Statistically validated  
+- Reproducible across **R**, **Python**, and **Unix**  
+- Integrated with real-world datasets: **GEO**, **GDC**, **CGCI**, **ArrayExpress**
+
+I build scalable pipelines and turn raw omics data into actionable biological insight.
+
+---
+
+## 💬 Ask Me About:
+
+- 🧬 Designing RNA-seq & scRNA-seq pipelines for disease models  
+- 🤖 Machine learning in immunogenomics and oncology  
+- 🔬 Molecular dynamics & free energy calculations in GROMACS  
+- 🔗 Network-based interpretation of multi-omics datasets  
+- ⚙️ Building reproducible analysis workflows on HPC/Slurm  
+
+---
+
+## 🎉 Fun Fact
+
+Before diving into bioinformatics, I worked in the **ICU as a clinical pharmacist**—until I discovered an intense passion for biological data analysis, which led me to shift careers and pursue systems biology full-time.
+
 
 
 ## 🌐 Socials:
